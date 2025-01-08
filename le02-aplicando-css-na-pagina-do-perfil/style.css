@@ -1,0 +1,139 @@
+/* Geral */
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+   
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu a {
+    color: rgb(15, 20, 25); 
+    text-decoration: none;
+    border-radius: 20px; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
+.perfil {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.perfil h4 {
+    color: rgb(15, 20, 25); 
+}
+
+.perfil h5 {
+    color: rgb(83, 100, 113); 
+}
+
+.usuario-info a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+
+.btn-edicao-perfil {
+    background-color: rgb(29, 155, 240);
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+ 
+}
+
+.btn-edicao-perfil:hover {
+    background-color: rgb(26, 140, 220);
+}
+
+.perfil-status {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.perfil-status a {
+    text-decoration: none;
+    color: rgb(15, 20, 25); 
+    font-weight: bold;
+}
+
+.perfil-status a:hover {
+    text-decoration: underline; 
+}
+
+.tzeeter {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   
+}
+
+.tzeeter:hover {
+    background-color: rgba(0, 0, 0, 0.03); 
+}
+
+
+.tzeeter-navegacao ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.tzeeter-navegacao a {
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.tzeeter-navegacao a:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
+.tzeets-acoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tzeets-acoes a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+}
+
+.tzeets-acoes a.reply:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.tzeets-acoes a.retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+
+.tzeets-acoes a.like:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
+
+.tzeets-acoes a.share:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 1);
+}
